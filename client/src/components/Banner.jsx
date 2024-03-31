@@ -21,11 +21,11 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <div className="text-white p-8 md:p-16 text-center lg:w-2/3 mx-auto mt-16">
+    <div className="dark:text-white p-8 md:p-16 text-center lg:w-2/3 mx-auto mt-16">
       <h1 className="text-3xl px-4 sm:px-0 sm:text-5xl lg:text-7xl font-bold mb-4 drop-shadow-md">
         Your Daily Essentials E-Commerce in{' '}
         <span
-          className="text-[#1f93ff]"
+          className="text-blue"
           style={{
             textShadow: '0 0 0px #1F51FF, 0 0 2px #1F51FF, 0 0 3px #1F51FF',
           }}
@@ -33,13 +33,13 @@ const Banner = () => {
           Defence
         </span>
       </h1>
-      <p className="text-md md:text-lg mb-6 text-gray-200">
+      <p className="text-md md:text-lg mb-6 dark:text-gray-200 text-slate-800">
         Discover a curated selection of daily essentials tailored for defense
         personnel. From hygiene products to snacks and more, our platform
         simplifies shopping, ensuring convenience and quality. Explore now and
         thrive!
       </p>
-      <button className="bg-transparent border-2 sm:text-xl text-center text-white px-10 py-3 rounded-full hover:text-white transition duration-300 ease-in-out drop-shadow-md">
+      <button className="bg-transparent border-2 border-zinc-900 text-zinc-900 dark:border-white  hover:border-blue lg:text-semibold sm:text-xl text-center dark:text-white px-10 py-3 rounded-full dark:hover:border-blue dark:hover:text-blue hover:text-blue transition duration-300 ease-in-out drop-shadow-md ">
         Explore
       </button>
     </div>

@@ -7,8 +7,9 @@ import feature2 from '../assets/feature2.jpg'
 import feature3 from '../assets/feature3.jpg'
 import Footer from '../components/Footer'
 const Home = () => {
+  
   return (
-    <div className="bg-radial-gradient w-full ">
+    <div className="dark:bg-radial-gradient dark:text-white w-full ">
     <Header/>
     <Banner/>
       <HomeCard featureImg={feature1} featureName="ID Scanner" featureDetails=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
